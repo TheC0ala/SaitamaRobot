@@ -73,16 +73,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+Salam {}, mənim adım {}! 
+Mən qrup idarə etmə botuyam.
+/help yazaraq kömək əldə edə bilərsən.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
-the things I can help you with.
+Salam! Mənim adım *{}*.
+Mən qrupu daha rahat idarə etmək və adminlərə kömək etmək üçün bir botam.
 
 *Main* commands available:
  • /help: PM's you this message.
