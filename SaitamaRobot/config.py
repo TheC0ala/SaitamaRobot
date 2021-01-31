@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    API_ID = 1225523  # integer value, dont use ""
+    API_HASH = "ec0ae6e668e4eaa669c536acf13c9f59"
+    TOKEN = "1646400333:AAGc8bZV7XWgTktz6SDqkVvx4CTN7TbRZlA"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 871173916  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Exi099"
+    SUPPORT_CHAT = "GroupHelperSup"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1001179297071
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1001179297071
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgresql://rbabas:bakir143@postgresql-read/postgres"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
